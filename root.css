@@ -1,0 +1,159 @@
+:root {
+    /* font__size___root */
+    --fs-ssm: 14px;
+    --fs-sm: 16px;
+    --fs-md: 18px;
+    --fs-lg: 14px;
+    --fs-xl: 21.744px;
+    --fs-2xl: 20px;
+    --fs-3xl: 24px;
+    --fs-4xl: 40px;
+    --fs-5xl: 38px;
+    /* color__css__statrs__here */
+    --color-white: #fff;
+    --color-btnnavy: #001D49;
+    --bgcolor-blue: #000A1A;
+    --bgcolor-card: #031227;
+    --bgolor-roadmap: #009dff;
+    --bgcolor-white: #fff;
+    --bgcolor-accord: #031227;
+}
+
+.fs_14 {
+    font-size: var(--fs-ssm);
+}
+
+.fs_16 {
+    font-size: var(--fs-sm);
+}
+
+.fs_18 {
+    font-size: var(--fs-md);
+}
+
+.fs_20 {
+    font-size: var(--fs-lg);
+}
+
+.fs_21 {
+    font-size: var(--fs-xl);
+}
+
+.fs_25 {
+    font-size: var(--fs-2xl);
+}
+
+.fs_30 {
+    font-size: var(--fs-3xl);
+}
+
+.fs_50 {
+    font-size: var(--fs-4xl);
+}
+
+.fs_70 {
+    font-size: var(--fs-5xl);
+}
+
+.white_color {
+    color: var(--color-white);
+}
+
+.btnnavy_color {
+    color: var(--color-btnnavy);
+}
+
+.bgblue_color {
+    background-color: var(--bgcolor-blue);
+}
+
+.cardbg_color {
+    background-color: var(--bgcolor-card);
+}
+
+.roadmapbg_color {
+    background-color: var(--bgolor-roadmap);
+}
+
+.bgwhite_color {
+    background-color: var(--bgcolor-white);
+}
+
+.accordbg_color {
+    background-color: var(--bgcolor-accord);
+}
+
+@media (min-width:576px) {
+    :root {
+        /* font__size___root */
+        --fs-sm: 16px;
+        --fs-md: 18px;
+        --fs-lg: 15px;
+        --fs-xl: 21.744px;
+        --fs-2xl: 25px;
+        --fs-3xl: 30px;
+        --fs-4xl: 50px;
+        --fs-5xl: 70px;
+    }
+
+}
+
+@media (min-width:768px) {
+    :root {
+        /* font__size___root */
+        --fs-sm: 16px;
+        --fs-md: 18px;
+        --fs-lg: 16px;
+        --fs-xl: 21.744px;
+        --fs-2xl: 25px;
+        --fs-3xl: 30px;
+        --fs-4xl: 50px;
+        --fs-5xl: 70px;
+    }
+
+}
+
+@media (min-width:992px) {
+    :root {
+        /* font__size___root */
+        --fs-sm: 16px;
+        --fs-md: 18px;
+        --fs-lg: 16px;
+        --fs-xl: 21.744px;
+        --fs-2xl: 25px;
+        --fs-3xl: 30px;
+        --fs-4xl: 50px;
+        --fs-5xl: 70px;
+    }
+
+}
+
+@media (min-width:1200px) {
+    :root {
+        /* font__size___root */
+        --fs-sm: 16px;
+        --fs-md: 18px;
+        --fs-lg: 18px;
+        --fs-xl: 21.744px;
+        --fs-2xl: 25px;
+        --fs-3xl: 30px;
+        --fs-4xl: 50px;
+        --fs-5xl: 70px;
+    }
+
+}
+
+@media (min-width:1400px) {
+    :root {
+        /* font__size___root */
+        --fs-sm: 16px;
+        --fs-md: 18px;
+        --fs-lg: 20px;
+        --fs-xl: 21.744px;
+        --fs-2xl: 25px;
+        --fs-3xl: 30px;
+        --fs-4xl: 50px;
+        --fs-5xl: 70px;
+    }
+
+}
